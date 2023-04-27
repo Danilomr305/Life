@@ -1,0 +1,9 @@
+coisas do site
+
+1.imagens no fundo
+2.fala dos dogs ameaçados de extissao
+3.video de dogs bricando
+4.PRETO: #0E0F11, #212B2A, #333738, #3A434A, #404A4C;
+  MARROM: #3D2217, #6A452C, #976841;
+  CINZA: #3e4144, #45484a, #474b4e;
+  BRANCO;
