@@ -1,2 +1,28 @@
 @charset "UTF-8";
 
+:root {
+    /*COR PRETA*/
+    --cor0: #0E0F11;
+    --cor01: #212B2A;
+    --cor02: #333738;
+    --cor03: #3A434A;
+    --cor04: #404A4C;
+
+    /*COR MARROM*/
+    --cor00: #3D2217;
+    --cor001: #6A452C;
+    --cor002: #976841;
+
+    /*COR CINZAR*/
+    --cor000: #3e4144;
+    --cor:0001: #45484a;
+    --cor: #474b4e;
+
+    /*COR BRANCA*/
+    --cor: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
