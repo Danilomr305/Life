@@ -26,3 +26,43 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    background-color: var(--cor002);
+    color: var(--cor0);
+}
+
+a.externo:after {
+    content: '\00A0\1F517';
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor002), var(--cor));
+    min-height: 140px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1 {
+    color: var(--cor);
+    font-family: Arial, Helvetica, sans-serif;font-size: 2.8em;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 2px 2px 0px var(--cor01);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: blue;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px lawngreen;
+}
+
+nav {
+    background-color: #976841;
+    padding: 10px;
+    box-shadow: 0px 7px 7px var(--cor0);
+}
