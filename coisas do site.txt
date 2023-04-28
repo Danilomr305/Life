@@ -7,3 +7,9 @@ coisas do site
   MARROM: #3D2217, #6A452C, #976841;
   CINZA: #3e4144, #45484a, #474b4e;
   BRANCO;
+
+                           texto site
+
+continuação...
+
+https://meusanimais.com.br/5-racas-de-caes-em-perigo-de-extincao/ = site dos dogs em extição

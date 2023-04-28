@@ -128,3 +128,13 @@ main p {
     font-size: 1.2em;
     line-height: 1.5em;
 }
+
+main img {
+    height: 55vh;
+    width: 75%;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    
+}
+
