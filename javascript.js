@@ -1,1 +1,1 @@
-alert.donc ''
+window.alert('venha aprender mais a história do seu Bichinho!')
