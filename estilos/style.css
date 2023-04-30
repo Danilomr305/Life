@@ -136,7 +136,7 @@ main p {
     margin: 10px 0px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.5em;
 }
 
@@ -154,6 +154,39 @@ div.foto {
     display: block;
     margin: auto;
     border-radius: 6px;
+}
+
+aside {
+    background-color: var(--cor001);
+    padding: 10px;
+    width: 86%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px var(--cor02);
+}
+
+aside > h2 {
+    background-color: var(--corr);
+    color: #0E0F11;
+    font-family: var(--fonte-titulo);
+    font-size: 1.8em;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+aside > p {
+   font-size: 1.4em;
+   text-align: center;
+   color: #0E0F11;
+   font-weight: bolder;
+}
+
+aside > ul {
+   list-style-position: inside;
+   columns: 2;
+   font-size: 1.2em;
+
 }
 
 
