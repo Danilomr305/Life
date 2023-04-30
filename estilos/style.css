@@ -121,17 +121,36 @@ main h2 {
 
 }
 
+div.centro {
+    text-align: center;
+}
+
+main h3 {
+    font-size: 1.4em;
+    padding: 10px;
+    background-image: linear-gradient(to right, var  (--cor5), transparent);
+
+}
+
 main p {
     margin: 10px 0px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: 1.5em;
 }
 
 main img {
     height: 50vh;
     width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+}
+
+div.foto {
+    height: 50vh;
+    width: 70%;
     display: block;
     margin: auto;
     border-radius: 6px;
