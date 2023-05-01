@@ -16,7 +16,11 @@ function calcular() {
         if (anim[0].checked) {
             animal = 'Cachorro'
             if (idade >=0 && idade < 2) {
-                img.setAttribute('src'), '..imagens/criança.jpg'
+                /*cachorro-bebe*/
+                img.setAttribute('src', 'bebe.jpg')
+            }else if (idade < 2) {
+                /*cachorro-criança*/
+                img.setAttribute('src', 'criança.jpg')
             }
         }
         res.innerHTML = `O seu ${animal} tem ${idade} anos!`
