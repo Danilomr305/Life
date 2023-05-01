@@ -189,4 +189,20 @@ aside > ul {
 
 }
 
+section {
+    background-color: var(--cor);
+    color: var(--cor0);
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+section > h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
 
