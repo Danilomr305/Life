@@ -5,8 +5,8 @@ function calcular() {
     var n1 = document.getElementById('txtano')
     var res = document.getElementById('res')
     if (n1.value.length == 0 || Number(n1.value) > ano) {
-
-    }else {
+        window.alert('Verifique os dados e tente novamente')
+    }  else {
         var anim = document.getElementsByName('rani')
         var idade = ano - Number(n1.value)
         res.innerHTML = `O seu Dog tem ${idade}`
