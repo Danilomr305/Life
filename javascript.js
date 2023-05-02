@@ -1,14 +1,14 @@
 window.alert('estude mano, você vai chegar lá!')
 function calcular() {
     var data = new Date()
-    var ano = data.getUTCFullYear()
-    var fano = document.getElementById('txtano')
+    var ano = data.getFullYear()
+    var n1 = document.getElementById('txtano')
     var res = document.getElementById('res')
-    if (fano.value.length == 0 || Number(fano.value) > ano) {
+    if (n1.value.length == 0 || Number(n1.value) > ano) {
 
     }else {
         var anim = document.getElementsByName('rani')
-        var idade = ano - Number(fano.value)
+        var idade = ano - Number(n1.value)
         res.innerHTML = `O seu Dog tem ${idade}`
         var animal = ''
         var img = document.createElement('img')
@@ -23,6 +23,7 @@ function calcular() {
                 img.setAttribute('src', 'criança.jpg')
             }
         }
+        res.style.textAlign = 'center'
         res.innerHTML = `O seu ${animal} tem ${idade} anos!`
         res.appendChild (img)
     }
