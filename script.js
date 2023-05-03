@@ -1,4 +1,4 @@
-window.alert('estude mano, você vai chegar lá!')
+
 function calcular() {
     var data = new Date()
     var ano = data.getFullYear()
