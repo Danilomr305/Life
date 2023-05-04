@@ -15,12 +15,15 @@ function calcular() {
         img.setAttribute('id', 'foto')
         if (anim[0].checked) {
             animal = 'Cachorro'
-            if (idade >= 0 && idade < 2) {
+            if (idade >= 0 && idade < 3) {
                 /*img:cachorro-bebe*/
                 img.setAttribute('src', 'bebe.jpg')
-            }else if (idade < 2) {
+            }else if (idade > 8) {
                 /*img:cachorro-criança*/
-                img.setAttribute('src', 'criança.jpg')
+                img.setAttribute('src', 'crianca.jpg')
+            }else if (idade < 8) {
+                /*img:cachorro-adolescente*/
+                img.setAttribute('src',  'adolescente.jpg')
             }
         }
         res.style.textAlign = 'center'
