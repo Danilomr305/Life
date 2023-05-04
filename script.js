@@ -24,7 +24,7 @@ function calcular() {
             }
         }
         res.style.textAlign = 'center'
-        res.innerHTML = `O seu ${animal} tem ${idade} anos!`
+        res.innerHTML = `O seu ${animal} tem ${idade} anos.`
         res.appendChild (img)
     }
   
