@@ -18,13 +18,13 @@ function calcular() {
             if (idade >= 0 && idade <= 2) {
                 /*img:cachorro-bebe*/
                 img.setAttribute('src', 'bebe.jpg')
-            }else if(idade <= 3 && idade <= 5) {
+            }else if(idade < 5) {
                 /*img:cachorro-criança*/
                 img.setAttribute('src', 'crianca.jpg')
-            }else if(idade <= 6 && idade <= 8) {
+            }else if(idade < 8) {
                 /*img:cachorro-adolescente*/
                 img.setAttribute('src',  'adolescente.jpg')
-            }else if (idade <= 9 && idade <= 12) {
+            }else if (idade < 12) {
                 img.setAttribute('src', 'adulto.jpg')
             }else if (idade < 13){
                 img.setAttribute('src', 'idoso.jpg')
