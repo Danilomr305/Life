@@ -133,7 +133,7 @@
     }
     
     main p {
-        
+        margin-top: calc(-25%);
         margin: 10px 0px;
         text-align: justify;
         text-indent: 30px;
