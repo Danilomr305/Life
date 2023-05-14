@@ -39,6 +39,7 @@
     --fonte-titulos: 'Pacifico', cursive;
 }
 
+/*Parte de configuração para celular e tablet*/
 @media screen and (min-width: 300px ) and (max-width: 768px) {
     * {
         margin: 0px;
@@ -88,7 +89,7 @@
         padding: 10px;
     }
     
-     nav a {
+    nav a {
         font-size: 1.1em;
         color: var(--cor);
         padding: 10px;
@@ -261,7 +262,7 @@
     
 }
 
-
+/*parte de configuração para notebok*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     * {
@@ -482,6 +483,8 @@
     }
 
 }
+
+/*parte de configuração de tv e telas maiores*/
 @media screen and (min-width:992px) {
     * {
         margin: 0px;
