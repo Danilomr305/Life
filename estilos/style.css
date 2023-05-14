@@ -89,16 +89,18 @@ span#burguer {
     cursor: pointer;
 }
 
-nav {
+nav{
+    display: block;
     background-image: linear-gradient(to bottom, var(--cor05), var(--cor01));
     padding: 10px;
     box-shadow: 0px 7px 7px var(--cor01);
 }
 
  nav li {
+    display: none;
     font-size: 1.1em;
     text-align: center;
-    padding: 6px;
+    padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;

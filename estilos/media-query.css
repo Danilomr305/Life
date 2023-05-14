@@ -99,11 +99,6 @@
         transition-duration: 0.8s;
     }
     
-    nav a:hover {
-        background-color: var(--cor);
-        color: var(--cor000);
-    }
-    
     main {
         min-width: 300px;
         max-width: 1000px;
@@ -323,11 +318,6 @@
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.8s;
-    }
-    
-    nav a:hover {
-        background-color: var(--cor);
-        color: var(--cor000);
     }
     
     main {
