@@ -40,6 +40,224 @@
 }
 
 @media screen and (min-width: 300px ) and (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: var(--cor01);
+        color: var(--cor);
+    }
+    
+    a.externo:after {
+        content: '\00A0\1F517';
+    }
+    
+    header {
+        background-image: linear-gradient(to bottom, var(--cor0), var(--cor06));
+        text-shadow: 2px 2px 0px var(--cor01);
+        min-height: 140px;
+        padding-top: 30px;
+    }
+    
+    header > h1 {
+        color: var(--cor);
+        text-align: center;
+        font-family: var(--fonte-titulo);
+        font-size: 3.5em;
+        font-weight: bold;
+        margin-top: 10px;
+        text-shadow: 2.5px 2.5px 3px var(--corr);
+    }
+    
+    header > p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1em;
+        color: var(--cor);
+        padding-right: 25px;
+        padding-left: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.468);
+    }
+    
+    nav {
+        background-image: linear-gradient(to bottom, var(--cor05), var(--cor01));
+        padding: 10px;
+    }
+    
+     nav a {
+        font-size: 1.1em;
+        color: var(--cor);
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.8s;
+    }
+    
+    nav a:hover {
+        background-color: var(--cor);
+        color: var(--cor000);
+    }
+    
+    main {
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    
+    main h2 {
+        
+        color: var(--cor);
+        font-size: 1.7em;
+        font-weight: bold;
+        text-indent: 8px;
+    
+    }
+    
+    div.centro {
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    main h3 {
+        font-size: 1.4em;
+        padding: 10px;
+        background-image: linear-gradient(to right, var  (--cor5), transparent);
+    
+    }
+    
+    main p {
+        
+        margin: 10px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        
+    }
+    
+    main img {
+        height: 35vh;
+        width: 75%;
+        display: block;
+        margin: auto;
+        border-radius: 6px;
+    }
+    
+    div.foto {
+        height: 50vh;
+        width: 90%;
+            
+        margin: auto;
+        border-radius: 6px;
+      
+    }
+    
+    aside {
+        background-color: var(--cor001);
+        padding: 10px;
+        width: 86%;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 4px 4px 6px var(--cor02);
+    }
+    
+    aside > h2 {
+        background-color: var(--corr);
+        color: #0E0F11;
+        font-family: var(--fonte-titulo);
+        font-size: 1.8em;
+        text-align: center;
+        border-radius: 20px;
+    
+    }
+    
+    aside > p {
+       font-size: 1.4em;
+       text-align: center;
+       color: #0E0F11;
+       font-weight: bolder;
+    }
+    
+    aside > ul {
+       list-style-position: inside;
+       columns: 2;
+       font-size: 1.2em;
+    
+    }
+    
+    section {
+        background-color: var(--cor);
+        color: var(--cor0);
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    
+    section > h3 {
+        
+        font-weight: bolder;
+        border-radius: 20px;
+        text-align: center;
+        font-family: var(--fonte-titulo);
+        font-size: 1.8em;
+        font-weight: bolder;
+    }
+    
+    section .nascimento input {
+        border-radius: 8px;
+    }
+    
+    section .modificar {
+        
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    
+    section .modificar input {
+        height: 5vh;
+        width: 15vw;
+        box-shadow: 2px 2px 2px #0e0f116d;
+        border-radius: 10px;
+        font-family: var(--fonte-titulos);
+        font-size: 0.8em;
+        font-weight: bolder;
+        
+    }
+    
+    
+    div > .nascimento {
+        background-color: #474b4ed2;
+        border-radius: 20px;
+        font-family: var(--fonte-titulos);
+        font-weight: bolder;
+    }
+    
+    
+    
+    div > .animal {
+        height: 5vh;
+        width: 260px;
+        background-color: #474b4ed2;
+        border-radius: 20px;
+        margin: auto;
+        font-family: var(--fonte-titulos);
+        font-weight: bolder;
+    
+    }
+    
+    footer {
+        text-align: center;
+    }
     
 }
 
