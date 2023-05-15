@@ -1,20 +1,22 @@
+/*codigo para quando a tela for para o tamanho da tela de clr e table*/
 function mudouTamanho() {
-    if (window.innerWidth >=768) {
+    if (window.innerWidth >= 768) {
         itens.style.display = 'block'
     } else {
         itens.style.display = 'none'
     }
 }
 
+/*Menu hanburgue= media querys*/
 function clickMenu(){
-           
-    if (itens.style.display == 'block') {   
-        itens.style.display = 'none'
+    if (links.style.display == 'block') {   
+        links.style.display = 'none'
     }else {
-        itens.style.display = 'block'
+        links.style.display = 'block'
     }
 }
 
+/*calcular a idade e aparece as imagens dos cachorros*/
 function calcular() {
     let data = new Date()
     let ano = data.getFullYear()
