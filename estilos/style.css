@@ -196,14 +196,13 @@ aside > ul {
 
 }
 
-section {
-    background-color: var(--cor);
-    color: var(--cor0);
+section > div {
+    background-color: var(--corr);
     padding: 15px;
-    width: 500px;
-    margin: auto;
-    margin-top: 30px;
+    height: 200px;
+    width: ;
     border-radius: 10px;
+    
 }
 
 section > h3 {
@@ -221,7 +220,6 @@ section .nascimento input {
 }
 
 section .modificar {
-    
     text-align: center;
     border-radius: 20px;
     padding: 5px;

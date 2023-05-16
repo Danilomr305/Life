@@ -40,7 +40,7 @@
 }
 
 /*Parte de configuração para celular e tablet*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     header {
         background-image: linear-gradient(to bottom, var(--cor0), var(--cor06));
         text-shadow: 2px 2px 0px var(--cor01);
@@ -67,74 +67,11 @@
         width: 768px;
     }
 
-    section > div {
-        background-color: var(--cor);
-        color: var(--cor0);
-        padding: 15px;
-        height: 100vh;
-        width: 10vw;
-        margin: auto;
-        margin-top: 30px;
-        border-radius: 10px;
-    }
-    
-    section > h3 {
-        
-        font-weight: bolder;
-        border-radius: 20px;
-        text-align: center;
-        font-family: var(--fonte-titulo);
-        font-size: 1.8em;
-        font-weight: bolder;
-    }
-    
-    section .nascimento input {
-        border-radius: 8px;
-    }
-    
-    section .modificar {
-        
-        text-align: center;
-        border-radius: 20px;
-        padding: 5px;
-    }
-    
-    section .modificar input {
-        height: 5vh;
-        width: 15vw;
-        box-shadow: 2px 2px 2px #0e0f116d;
-        border-radius: 10px;
-        font-family: var(--fonte-titulos);
-        font-size: 0.8em;
-        font-weight: bolder;
-        
-    }
-    
-    
-    div > .nascimento {
-        background-color: #474b4ed2;
-        border-radius: 20px;
-        font-family: var(--fonte-titulos);
-        font-weight: bolder;
-    }
-    
-    
-    
-    div > .animal {
-        height: 5vh;
-        width: 260px;
-        background-color: #474b4ed2;
-        border-radius: 20px;
-        margin: auto;
-        font-family: var(--fonte-titulos);
-        font-weight: bolder;
-    
-    }
 }
 
 
 /*parte de configuração para notebok*/
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 }
     
 
