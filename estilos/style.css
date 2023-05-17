@@ -196,10 +196,10 @@ aside > ul {
 
 }
 
-section {
+section  {
     background-color: var(--corr);
     color: var(--cor0);
-    height: 200px;
+    height: 500px;
     width: 600px;
     margin: auto;
     border-radius: 10px;
@@ -240,8 +240,9 @@ section .modificar input {
 
 div > .nascimento {
     background-color: #474b4ed2;
-    height: 2.5vw;
-    width: 500px;
+    height: 40px;
+    width: 480px;
+    text-align: center;
     border-radius: 20px;
     font-family: var(--fonte-titulos);
     font-weight: bolder;
@@ -258,6 +259,12 @@ div > .animal {
     font-family: var(--fonte-titulos);
     font-weight: bolder;
 
+}
+
+div > #res {
+    background-color: var(--cor);
+    height: 100px;
+    width: 90px;
 }
 
 footer {
