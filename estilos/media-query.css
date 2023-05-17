@@ -40,7 +40,7 @@
 }
 
 /*Parte de configuração para celular e tablet*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     header {
         background-image: linear-gradient(to bottom, var(--cor0), var(--cor06));
         text-shadow: 2px 2px 0px var(--cor01);
