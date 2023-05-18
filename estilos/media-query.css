@@ -40,7 +40,7 @@
 }
 
 /*Parte de configuração para celular e tablet*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 600px) {
     header {
         background-image: linear-gradient(to bottom, var(--cor0), var(--cor06));
         text-shadow: 2px 2px 0px var(--cor01);
@@ -61,6 +61,12 @@
 
     menu > ul > li {
         display: inline-block;
+        background-color: var(--cor002);
+    
+    }
+
+    menu > a {
+        
     }
 
     main {
@@ -70,11 +76,11 @@
 }
 
 
-/*parte de configuração para notebok*/
-@media screen and (max-width: 992px) {
+/*parte de configuração para tablet*/
+@media screen and (max-width: 768px) {
 }
     
 
-/*parte de configuração de tv e telas maiores*/
+/*parte de configuração de notebook e telas maiores*/
 @media screen and (min-width:992px) {
 }   

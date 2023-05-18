@@ -197,7 +197,7 @@ aside > ul {
 }
 
 section  {
-    background-color: var(--corr);
+    background-color: var(--cor);
     color: var(--cor0);
     height: 500px;
     width: 600px;
@@ -215,8 +215,14 @@ section > h3 {
     font-weight: bolder;
 }
 
+section > p {
+    text-align: center;
+    
+}
+
 section .nascimento input {
     border-radius: 8px;
+    
    
 }
 
@@ -237,6 +243,13 @@ section .modificar input {
     
 }
 
+section #res {
+    background-color: var(--cor);
+    margin: auto;
+    /*height: 30vw;*/
+    width: 90px;
+}
+
 
 div > .nascimento {
     background-color: #474b4ed2;
@@ -246,6 +259,7 @@ div > .nascimento {
     border-radius: 20px;
     font-family: var(--fonte-titulos);
     font-weight: bolder;
+    margin: auto;
 }
 
 
@@ -258,12 +272,13 @@ div > .animal {
     margin: auto;
     font-family: var(--fonte-titulos);
     font-weight: bolder;
+    margin-top: 10px;
 
 }
 
-div > #res {
+ section > div > #res {
     background-color: var(--cor);
-    height: 100px;
+    height: 50px;
     width: 90px;
 }
 
