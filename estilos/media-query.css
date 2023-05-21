@@ -62,11 +62,13 @@
     menu > ul > li {
         display: inline-block;
         background-color: var(--cor002);
+        border-radius: 6px;
+        
     
     }
 
     menu > a {
-        
+        color: #ffffff;
     }
 
     main {
