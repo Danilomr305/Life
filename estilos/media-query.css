@@ -47,28 +47,64 @@
         min-height: 140px;
         padding-top: 30px;
     }
+
+    main div.centro {
+        text-align: center;
+    }
+
+    main h2 {
+        
+        color: var(--cor);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-indent: 8px;
+    }
+
+    main h3 {
+        font-size: 1.3em;
+        padding: 10px;
+        background-image: linear-gradient(to right, var  (--cor5), transparent);
+    }
+
+    main p {
+        margin: auto;
+        text-align: justify;
+        text-indent: 25px;
+        font-size: 1.4em;
+        line-height: 1.5em;
+    }
+    
     
     #burguer {
-        display: none;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
     }
 
     menu {
-        display: block;  
+        display: none;
         background-image: linear-gradient(to bottom, var(--cor05), var(--cor01));
         padding: 10px;
         box-shadow: 0px 7px 7px var(--cor01);
     }
 
-    menu > ul > li {
-        display: inline-block;
-        background-color: var(--cor002);
-        border-radius: 6px;
+    menu > ul > li > a {
+        display: block;
+        font-size: 1.1em;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5s;
+        color: rgba(0, 255, 255, 0.756);
         
     
     }
 
-    menu > a {
-        color: #ffffff;
+    menu > ul {
+        list-style-type: none;
     }
 
     main {

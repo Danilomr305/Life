@@ -100,7 +100,7 @@ menu > ul {
     list-style-type: none;
 }
 
-menu > ul > li > a  {
+menu > ul > li > a {
     display: block;
     font-size: 1.1em;
     text-align: center;
@@ -109,6 +109,7 @@ menu > ul > li > a  {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
+    color: rgba(0, 255, 255, 0.756);
 }
 
 main {
