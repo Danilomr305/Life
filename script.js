@@ -51,6 +51,7 @@ function calcular() {
             }
         }
         res.style.textAlign = 'center'
+        res.style.height = '5px'
         res.innerHTML = `O seu  ${animal} tem ${idade} anos!`
         res.appendChild (img)
 

@@ -244,15 +244,6 @@ section .modificar input {
     
 }
 
-section #res {
-    display: block;
-    margin: auto;
-    height: 120px;
-    width: 350px;
-    
-}
-
-
 div > .nascimento {
     background-color: #474b4ed2;
     height: 40px;
@@ -276,6 +267,10 @@ div > .animal {
     font-weight: bolder;
     margin-top: 10px;
 
+}
+
+div > #res {
+    height: 15px;
 }
 
 footer {
