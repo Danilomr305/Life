@@ -7,9 +7,7 @@
     src: url('fontes/Swallow Kick.otf') format('opentype');
     font-weight: normal;
 }
-
-:root {
-    /*COR PRETA*/
+:root {  /* PRETA*/
     --cor0: #0E0F11;
     --cor01: #212B2A;
     --cor02: #333738;
